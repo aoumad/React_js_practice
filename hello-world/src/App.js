@@ -3,6 +3,7 @@ import './App.css';
 import Greet_component from './components/Greet';
 import { Component } from 'react';
 import Welcome from './components/Welcome';
+import EventBind from './EventBind';
 
 // class App extends Component {
 //   render() {
@@ -23,6 +24,7 @@ import { useState } from 'react';
 export default function MyApp() {
   return (
     <div>
+      <EventBind />
       <h1>Counters that update separately</h1>
       <MyButton />
       <MyButton />
