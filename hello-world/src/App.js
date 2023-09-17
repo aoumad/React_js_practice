@@ -4,6 +4,7 @@ import Greet_component from './components/Greet';
 import { Component } from 'react';
 import Welcome from './components/Welcome';
 import EventBind from './EventBind';
+import ParentComponent from './components/ParentComponent';
 
 // class App extends Component {
 //   render() {
@@ -28,6 +29,7 @@ export default function MyApp() {
       <h1>Counters that update separately</h1>
       <MyButton />
       <MyButton />
+      <ParentComponent />
     </div>
   );
 }
