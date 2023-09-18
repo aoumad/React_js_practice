@@ -10,6 +10,7 @@ import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import styles from './components/AppStyles.module.css';
+import Form from './components/Form';
 
 // class App extends Component {
 //   render() {
@@ -44,6 +45,10 @@ export default function MyApp() {
       <Inline />
       <div>
         <h1 className={styles.success}>Success</h1>
+      </div>
+
+      <div>
+        <Form />
       </div>
     </div>
     </div>
