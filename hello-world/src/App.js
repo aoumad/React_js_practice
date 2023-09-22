@@ -27,6 +27,8 @@ import Form from './components/Form';
 
 
 import { useState } from 'react';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 export default function MyApp() {
   return (
@@ -48,7 +50,8 @@ export default function MyApp() {
       </div>
 
       <div>
-        <Form />
+        {/* <FragmentDemo /> */}
+        <Table />
       </div>
     </div>
     </div>
